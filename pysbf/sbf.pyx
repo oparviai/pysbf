@@ -1,9 +1,9 @@
 # Initial code by Jashandeep Sohi (2013, jashandeep.s.sohi@gmail.com)
 # adapted by Marco Job (2019, marco.job@bluewin.ch)
 
-from blocks import BLOCKNAMES, BLOCKNUMBERS
+from .blocks import BLOCKNAMES, BLOCKNUMBERS
 
-from parsers cimport BLOCKPARSERS
+from .parsers cimport BLOCKPARSERS
 
 from libc.stdint cimport uint16_t, uint8_t
 from libc.stdio cimport fread, fdopen, FILE, fseek, SEEK_CUR
